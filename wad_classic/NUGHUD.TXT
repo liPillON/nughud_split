@@ -1,0 +1,338 @@
+; ==============================================================================
+; NUGHUD documentation
+;   https://github.com/MrAlaux/Nugget-Doom/blob/master/docs/nughud.md
+;
+; NUGHUD defaults
+;   https://github.com/MrAlaux/Nugget-Doom/blob/master/docs/nughud.lmp
+;
+; SPLIT STATUSBAR
+;   https://github.com/liPillON/nughud_split
+;
+
+
+
+; ==============================================================================
+; GENERAL SETTINGS
+
+; Draw percentage signs
+nughud_percents 1
+
+; Apply graphic offsets when drawing Patches
+nughud_patch_offsets 1
+
+; Vertical offset for weapon sprites
+nughud_weapheight 0
+
+; Vertical offset for view window
+nughud_viewoffset 0
+
+
+
+; ==============================================================================
+; MAIN STATUSBAR
+
+; ------------------------------------------------------------------------------
+; AMMO
+nughud_sbchunk1_x     0
+nughud_sbchunk1_y     168
+nughud_sbchunk1_wide -2
+nughud_sbchunk1_sx    0
+nughud_sbchunk1_sy    0
+nughud_sbchunk1_sw    48
+nughud_sbchunk1_sh    32
+
+nughud_ammo_x         44
+nughud_ammo_y         171
+nughud_ammo_wide     -2
+nughud_ammo_align     1
+
+
+; ------------------------------------------------------------------------------
+; HEALTH
+nughud_sbchunk2_x     48
+nughud_sbchunk2_y     168
+nughud_sbchunk2_wide -2
+nughud_sbchunk2_sx    48
+nughud_sbchunk2_sy    0
+nughud_sbchunk2_sw    58
+nughud_sbchunk2_sh    32
+
+nughud_health_x       90
+nughud_health_y       171
+nughud_health_wide   -2
+nughud_health_align   1
+
+
+; ------------------------------------------------------------------------------
+; MUGSHOT BACKGROUND (same size as STFBx)
+nughud_sbchunk3_x     106
+nughud_sbchunk3_y     168
+nughud_sbchunk3_wide -2
+nughud_sbchunk3_sx    142
+nughud_sbchunk3_sy    0
+nughud_sbchunk3_sw    37
+nughud_sbchunk3_sh    32
+
+
+; ------------------------------------------------------------------------------
+; MUGSHOT FACE
+nughud_face_x         107
+nughud_face_y         168
+nughud_face_wide     -2
+nughud_face_bg        1
+
+
+; ------------------------------------------------------------------------------
+; Powerup Timers display
+nughud_powers_x       160
+nughud_powers_y       181
+nughud_powers_wide    0
+nughud_powers_align   0
+;nughud_powers_stack
+;nughud_powers_order
+
+
+; ------------------------------------------------------------------------------
+; weapon slots
+nughud_arms1_x        133
+nughud_arms1_y        191
+nughud_arms1_wide     0
+
+nughud_arms2_x        139
+nughud_arms2_y        191
+nughud_arms2_wide     0
+
+nughud_arms3_x        145
+nughud_arms3_y        191
+nughud_arms3_wide     0
+
+nughud_arms4_x        151
+nughud_arms4_y        191
+nughud_arms4_wide     0
+
+nughud_arms5_x        157
+nughud_arms5_y        191
+nughud_arms5_wide     0
+
+nughud_arms6_x        163
+nughud_arms6_y        191
+nughud_arms6_wide     0
+
+nughud_arms7_x        169
+nughud_arms7_y        191
+nughud_arms7_wide     0
+
+nughud_arms8_x        175
+nughud_arms8_y        191
+nughud_arms8_wide     0
+
+nughud_arms9_x        181
+nughud_arms9_y        191
+nughud_arms9_wide     0
+
+
+; ------------------------------------------------------------------------------
+; ARMOR
+nughud_sbchunk5_x     178
+nughud_sbchunk5_y     168
+nughud_sbchunk5_wide  2
+nughud_sbchunk5_sx    178
+nughud_sbchunk5_sy    0
+nughud_sbchunk5_sw    58
+nughud_sbchunk5_sh    32
+
+nughud_armor_x        221
+nughud_armor_y        171
+nughud_armor_wide     2
+nughud_armor_align    1
+
+
+; ------------------------------------------------------------------------------
+; KEYS
+nughud_sbchunk6_x     236
+nughud_sbchunk6_y     168
+nughud_sbchunk6_wide  2
+nughud_sbchunk6_sx    236
+nughud_sbchunk6_sy    0
+nughud_sbchunk6_sw    13
+nughud_sbchunk6_sh    32
+
+; Blue Key
+nughud_key0_x         239
+nughud_key0_y         171
+nughud_key0_wide      2
+
+; Yellow Key
+nughud_key1_x         239
+nughud_key1_y         181
+nughud_key1_wide      2
+
+; Red Key
+nughud_key2_x         239
+nughud_key2_y         191
+nughud_key2_wide      2
+
+
+; ------------------------------------------------------------------------------
+; TALLY
+nughud_sbchunk7_x     249
+nughud_sbchunk7_y     168
+nughud_sbchunk7_wide  2
+nughud_sbchunk7_sx    249
+nughud_sbchunk7_sy    0
+nughud_sbchunk7_sw    71
+nughud_sbchunk7_sh    32
+
+; Bullets count
+nughud_ammo0_x        288
+nughud_ammo0_y        173
+nughud_ammo0_wide     2
+nughud_ammo0_align    1
+
+; Shells count
+nughud_ammo1_x        288
+nughud_ammo1_y        179
+nughud_ammo1_wide     2
+nughud_ammo1_align    1
+
+; Cells count
+nughud_ammo2_x        288
+nughud_ammo2_y        191
+nughud_ammo2_wide     2
+nughud_ammo2_align    1
+
+; Rockets count
+nughud_ammo3_x        288
+nughud_ammo3_y        185
+nughud_ammo3_wide     2
+nughud_ammo3_align    1
+
+; Max Bullets count
+nughud_maxammo0_x     314
+nughud_maxammo0_y     173
+nughud_maxammo0_wide  2
+nughud_maxammo0_align 1
+
+; Max Shells count
+nughud_maxammo1_x     314
+nughud_maxammo1_y     179
+nughud_maxammo1_wide  2
+nughud_maxammo1_align 1
+
+; Max Cells count
+nughud_maxammo2_x     314
+nughud_maxammo2_y     191
+nughud_maxammo2_wide  2
+nughud_maxammo2_align 1
+
+; Max Rockets count
+nughud_maxammo3_x     314
+nughud_maxammo3_y     185
+nughud_maxammo3_wide  2
+nughud_maxammo3_align 1
+
+
+; ==============================================================================
+; TEXT WIDGETS
+
+; ------------------------------------------------------------------------------
+; STACK 1 (top-left)
+nughud_stack1_x       2
+nughud_stack1_y       1
+nughud_stack1_wide   -2
+nughud_stack1_align  -1
+nughud_stack1_vlign   1
+
+; Message display
+nughud_message_x     -1
+nughud_message_y     -1
+nughud_message_wide  -2
+nughud_message_align -1
+nughud_message_stack  1
+nughud_message_defx   0
+
+; Secret Message/Milestone Completion display
+nughud_secret_x      -1
+nughud_secret_y      -1
+nughud_secret_wide   -2
+nughud_secret_align  -1
+nughud_secret_stack   1
+nughud_secret_order   0
+
+
+; ------------------------------------------------------------------------------
+; STACK 2 (top-right, w/offset to prevent messages from shifting this)
+nughud_stack2_x       318
+nughud_stack2_y       10
+nughud_stack2_wide    2
+nughud_stack2_align   1
+nughud_stack2_vlign   1
+
+; Level Name display
+nughud_title_x        318
+nughud_title_y        1
+nughud_title_wide     2
+nughud_title_align    1
+;nughud_title_stack
+;nughud_title_order
+
+
+; ------------------------------------------------------------------------------
+; STACK 3 (bottom-left corner)
+nughud_stack3_x       2
+nughud_stack3_y       168
+nughud_stack3_wide   -2
+nughud_stack3_align  -1
+nughud_stack3_vlign  -1
+
+; Stats display
+nughud_sts_x         -1
+nughud_sts_y         -1
+nughud_sts_wide      -2
+nughud_sts_align     -1
+nughud_sts_stack      3
+nughud_sts_order      1
+nughud_sts_ml        -1
+
+; Time display
+nughud_time_x        -1
+nughud_time_y        -1
+nughud_time_wide     -2
+nughud_time_align    -1
+nughud_time_stack     3
+nughud_time_order     2
+
+
+; ------------------------------------------------------------------------------
+; STACK 4 (bottom-right corner)
+nughud_stack4_x       318
+nughud_stack4_y       168
+nughud_stack4_wide    2
+nughud_stack4_align   1
+nughud_stack4_vlign  -1
+
+; Rendering-statistics display
+nughud_rate_x        -1
+nughud_rate_y        -1
+nughud_rate_wide      2
+nughud_rate_align     1
+nughud_rate_stack     4
+nughud_rate_order     0
+
+; Coordinates display
+nughud_coord_x       -1
+nughud_coord_y       -1
+nughud_coord_wide     2
+nughud_coord_align    1
+nughud_coord_stack    4
+nughud_coord_order    1
+nughud_coord_ml      -1
+
+; FPS display
+nughud_fps_x         -1
+nughud_fps_y         -1
+nughud_fps_wide       2
+nughud_fps_align      1
+nughud_fps_stack      4
+nughud_fps_order      2
+
