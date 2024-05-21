@@ -14,8 +14,8 @@ a splitted fullscreen variant of the classic DOOM stbar, powered by Nugget Doom
 
 
 ## Limitations:
-- this is a singleplayer-only HUD, since I haven't tested it in any other game mode
-- the text widget's arrangement in the automap screen is overridden by WOOFHUD, I suggest switching to "overlay mode"   
+- this is a HUD intended for singleplayer use
+- for optimal results, use the "dark overlay" automap mode  
 - when more than 3 powerup are active, the timers widget might overlap with the statusbar chunks
 - the rendering stats widgets takes a lot of space and its position might not be ideal
 
