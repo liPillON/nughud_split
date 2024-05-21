@@ -79,7 +79,7 @@ nughud_sbchunk3_sh    32
 nughud_face_x         107
 nughud_face_y         168
 nughud_face_wide     -2
-nughud_face_bg        1
+nughud_face_bg        0
 
 
 ; ------------------------------------------------------------------------------
